@@ -6,3 +6,27 @@ Credit scoring is the set of decision models and their underlying techniques tha
 A lender commonly makes two types of decisions: first, whether to grant credit to a new applicant, and second, how to deal with existing applicants, including whether to increase their credit limits. In both cases, whatever the techniques used, it is critical that there is a large sample of previous customers with their application details, behavioral patterns, and subsequent credit history available. Most of the techniques use this sample to identify the connection between the characteristics of the consumers (annual income, age, number of years in employment with their current employer, etc.) and their subsequent history. 
 
 Typical application areas in the consumer market include: credit cards, auto loans, home mortgages, home equity loans, mail catalog orders, and a wide variety of personal loan products.
+
+## Model Building
+When the training data set on which the modeling is based contains a binary indicator variable of "Paid back" vs. "Default", or "Good Credit" vs. "Bad Credit", then Logistic Regression models are well suited for subsequent predictive modeling. Logistic regression yields prediction probabilities for whether or not a particular outcome (e.g., Bad Credit) will occur. Furthermore, logistic regression models are linear models, in that the logit-transformed prediction probability is a linear function of the predictor variable values. Thus, a final score card model derived in this manner has the desirable quality that the final credit score (credit risk) is a linear function of the predictors, and with some additional transformations applied to the model parameter, a simple linear function of scores that can be associated with each predictor class value after coarse coding. So the final credit score is then a simple sum of individual score values that can be taken from the scorecard.
+
+## BUSINESS OBJECTIVES:
+The application of scoring models in today’s business environment covers a wide range of objectives. The original task of estimating the risk of default has been augmented by credit scoring models to include other aspects of credit risk management: at the pre-application stage (identification of potential applicants), at the application stage (identification of acceptable applicants), and at the performance stage (identification of possible behavior of current customers). Scoring models with different objectives have been developed. They can be generalized into four categories as listed below.
+
+* MARKETING ASPECT:
+Purposes:
+Identify credit-worthy customers most likely to respond to promotional activity in order to reduce the cost of customer acquisition and minimize customer dissatisfaction.
+
+Predict the likelihood of losing valuable customers and enable organizations to formulate effective customer retention strategy.
+Examples:
+
+**Response scoring:** The scoring models that estimate how likely a consumer would respond to a direct mailing of a new product.
+
+**Retention/attrition scoring:** The scoring models that predict how likely a consumer would keep using the product or change to another lender after the introductory offer period is over.
+
+* APPLICATION ASPECT
+Purposes
+Decide whether to extend credit, and how much credit to extend.
+Forecast the future behavior of a new credit applicant by predicting loandefault
+chances or poor repayment behaviors at the time the credit is granted.
+Examples:
