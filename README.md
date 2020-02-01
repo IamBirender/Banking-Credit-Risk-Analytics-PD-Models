@@ -14,13 +14,13 @@ When the training data set on which the modeling is based contains a binary indi
 The application of scoring models in today’s business environment covers a wide range of objectives. The original task of estimating the risk of default has been augmented by credit scoring models to include other aspects of credit risk management: at the pre-application stage (identification of potential applicants), at the application stage (identification of acceptable applicants), and at the performance stage (identification of possible behavior of current customers). Scoring models with different objectives have been developed. They can be generalized into four categories as listed below.
 
 1. MARKETING ASPECT:
-- Purposes:
-  Identify credit-worthy customers most likely to respond to promotional activity in order to reduce the cost of customer acquisition and minimize customer dissatisfaction.
-  Predict the likelihood of losing valuable customers and enable organizations to formulate effective customer retention strategy.
-Examples:
+  - Purposes:
+    Identify credit-worthy customers most likely to respond to promotional activity in order to reduce the cost of customer acquisition and minimize customer dissatisfaction.
+    Predict the likelihood of losing valuable customers and enable organizations to formulate effective customer retention strategy.
+  Examples:
 
-- Examples: 
-  Response scoring: The scoring models that estimate how likely a consumer would respond to a direct mailing of a new product. Retention/attrition scoring: The scoring models that predict how likely a consumer would keep using the product or change to another lender after the introductory offer period is over.
+  - Examples: 
+    Response scoring: The scoring models that estimate how likely a consumer would respond to a direct mailing of a new product. Retention/attrition scoring: The scoring models that predict how likely a consumer would keep using the product or change to another lender after the introductory offer period is over.
   
 
 * APPLICATION ASPECT
