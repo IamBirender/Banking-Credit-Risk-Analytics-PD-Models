@@ -19,9 +19,9 @@ The application of scoring models in today’s business environment covers a wid
   Predict the likelihood of losing valuable customers and enable organizations to formulate effective customer retention strategy.
 Examples:
 
-**Response scoring:** The scoring models that estimate how likely a consumer would respond to a direct mailing of a new product.
-
-**Retention/attrition scoring:** The scoring models that predict how likely a consumer would keep using the product or change to another lender after the introductory offer period is over.
+- Examples: 
+  Response scoring: The scoring models that estimate how likely a consumer would respond to a direct mailing of a new product. Retention/attrition scoring: The scoring models that predict how likely a consumer would keep using the product or change to another lender after the introductory offer period is over.
+  
 
 * APPLICATION ASPECT
 Purposes
