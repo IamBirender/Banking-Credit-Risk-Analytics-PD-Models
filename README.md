@@ -46,22 +46,36 @@ Examples:
 
 5. Data Description:
 
-age - Age of Customer
+- age - Age of Customer
+- ed - Eductation level of customer
+- employ: Tenure with current employer (in years)
+- address: Number of years in same address
+- income: Customer Income
+- debtinc: Debt to income ratio
+- creddebt: Credit to Debt ratio
+- othdebt: Other debts
+- default: Customer defaulted in the past (1= defaulted, 0=Never defaulted
 
-ed - Eductation level of customer
+Credits
+-------
+This project contains data and other related material that is developed by [**AnalytixLabs**](https://www.analytixlabs.co.in).
 
-employ: Tenure with current employer (in years)
+I acknowledge and grateful to [**Professor ChandraMouli Kotta**](https://www.linkedin.com/in/chandra-mouli-kotta-kota-09620713/) for his continuous support throughout the Certification ([**Data Science using Python**](https://www.analytixlabs.co.in/data-science-using-python) that helped me learn the skills of Linear Regression and develop a **Linear Regression model for predicting car sales**.
 
-address: Number of years in same address
 
-income: Customer Income
+Developer
+---------
+Birender Singh (birender@buffalo.edu)</br>
+[![linkedin](https://github.com/IamBirender/content/blob/master/ic_linkedin.png)](https://www.linkedin.com/in/singhbirender)
 
-debtinc: Debt to income ratio
 
-creddebt: Credit to Debt ratio
+License
+----------
+Copyright {2020} 
+{Birender Singh birender@buffalo.edu} 
 
-othdebt: Other debts
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
-default: Customer defaulted in the past (1= defaulted, 0=Never defaulted
+http://www.apache.org/licenses/LICENSE-2.0
 
-    
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.    
